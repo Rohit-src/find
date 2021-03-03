@@ -1,0 +1,66 @@
+.header {
+    display: flex;
+    background-color: #fff;
+    height: 60px;
+    align-items: center;
+    width: 100%;
+    box-shadow:0px 3px 4px 0px rgba(61, 50, 50, 0.55);
+
+    
+}
+.header__logo{
+    margin: 0 20px 0 230px;
+}
+
+
+
+.header__search {
+    margin-left: 5px;
+    
+}
+.header__searchBox{
+    padding: 5px;
+    border-radius: 5px;
+    border:none;
+    width: 350px;
+    height: 34px;
+    box-shadow:2px 1px 2px 1px rgba(61, 50, 50, 0.55);
+}
+.header__searchButton {
+    background:  rgba(11,168,203,1);
+background: linear-gradient(90deg, rgb(9, 95, 121) 0%, rgb(11, 142, 230) 0%, rgba(11,168,203,1) 26%, rgba(0,212,255,1) 100%);
+border-color:  rgba(11,168,203,1);
+border-radius: 6px;
+border: none;
+margin-left: 1px;
+height: 34px;
+color: #fff;
+width: 90px;
+box-shadow:2px 1px 1px 0px rgba(61, 50, 50, 0.55);
+}
+
+.header__items{
+display: flex;
+align-items: center;
+margin-left: 127px;
+}
+.header__login {
+    margin-left: 100px;
+    display: flex;
+    margin-top: 12px;
+}
+
+.header__logoImage{
+    height: 40px;
+     color: black;
+}
+.header__dropdown{
+
+             margin-left:129px;
+            background-color:#fff;
+            box-shadow:2px 1px 1px 0px rgba(61, 50, 50, 0.55);
+            width:169px;
+}
+.search icon{
+margin-right: 405px;
+}
